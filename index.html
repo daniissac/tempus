@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tempus - Life Counter</title>
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#1a1a1a">
+    <link rel="apple-touch-icon" href="icons/icon.svg">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tempus</h1>
+        <div class="setup" id="setupForm">
+            <select id="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+            <div class="input-group">
+                <label for="birthdate">Date of Birth</label>
+                <input type="date" id="birthdate" placeholder="Your birth date">
+            </div>
+            <select id="country"></select>
+            <button onclick="startTimer()">Start My Counter</button>
+        </div>
+        <div id="timer" style="display: none;"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
