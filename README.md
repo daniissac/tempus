@@ -1,36 +1,50 @@
 # Tempus - Life Counter
 
-Tempus is a progressive web app that provides a unique perspective on time by showing the days remaining in your life based on average life expectancy data from 200 countries. This minimalist countdown timer serves as a powerful reminder to make each day count.
+A minimalist progressive web app that shows the days remaining in your life based on global life expectancy data. Make every day count.
 
 ## Features
 
-- Clean, minimalist interface
-- Works offline
-- Global life expectancy data
-- Mobile-friendly design
-- Installable on iOS and Android
+✨ Clean, minimalist interface  
+🌐 Works offline  
+📊 Global life expectancy data  
+📱 Mobile-first design  
+⚡ Installable on iOS and Android  
+🎯 Home screen widget support
 
-## Adding to Home Screen
+## Quick Start
 
-### iOS
+### iOS Installation
 1. Open Safari and visit Tempus
 2. Tap the Share button (square with arrow)
-3. Scroll down and tap "Add to Home Screen"
+3. Select "Add to Home Screen"
 4. Name your shortcut and tap "Add"
-5. Tempus will now appear on your home screen with full-screen functionality
 
-### Android
+### Android Installation
 1. Open Chrome and visit Tempus
-2. Wait for the "Add to Home Screen" banner or:
-   - Tap the three dots menu (⋮)
-   - Select "Add to Home Screen"
-3. Tap "Add" in the prompt
-4. Find Tempus on your home screen or app drawer
+2. Tap "Add to Home Screen" when prompted
+   - Or tap menu (⋮) → "Add to Home Screen"
+3. Follow the installation prompts
+
+## Widget Setup
+
+### iOS Widget
+1. Long press home screen
+2. Tap + in top left
+3. Search "Tempus"
+4. Select widget size
+5. Tap "Add Widget"
+
+### Android Widget
+1. Long press home screen
+2. Select "Widgets"
+3. Find "Tempus"
+4. Drag to desired location
 
 ## Data Source
-
-Life expectancy data sourced from World Health Organization 2024 statistics.
+Life expectancy data from WHO 2024 statistics
 
 ## License
+[MIT License](LICENSE)
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+---
+Built with ❤️ for making time count

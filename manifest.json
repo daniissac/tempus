@@ -14,5 +14,23 @@
             "type": "image/svg+xml",
             "purpose": "any maskable"
         }
-    ]
+    ],
+    "widgets": [{
+        "name": "Tempus Counter",
+        "short_name": "Days",
+        "description": "View your life countdown",
+        "screenshots": [
+            {
+                "src": "icons/widget-preview.svg",
+                "sizes": "540x720",
+                "type": "image/svg+xml"
+            }
+        ],
+        "icons": [
+            {
+                "src": "icons/icon.svg",
+                "sizes": "192x192"
+            }
+        ]
+    }]
 }

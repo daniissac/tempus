@@ -1,0 +1,12 @@
+<svg width="540" height="720" viewBox="0 0 540 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="540" height="720" fill="url(#gradient)"/>
+    <rect x="40" y="160" width="460" height="400" rx="20" fill="rgba(255, 255, 255, 0.1)"/>
+    <text x="270" y="300" text-anchor="middle" fill="white" font-family="system-ui" font-size="48" font-weight="bold">12,775</text>
+    <text x="270" y="380" text-anchor="middle" fill="rgba(255, 255, 255, 0.8)" font-family="system-ui" font-size="32">days remaining</text>
+    <defs>
+        <linearGradient id="gradient" x1="0" y1="0" x2="540" y2="720" gradientUnits="userSpaceOnUse">
+            <stop offset="0%" stop-color="#1a1a1a"/>
+            <stop offset="100%" stop-color="#363636"/>
+        </linearGradient>
+    </defs>
+</svg>
