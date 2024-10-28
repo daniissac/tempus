@@ -12,10 +12,9 @@ async function registerSW() {
 }
 
 async function fetchLifeExpectancy() {
-    const response = await fetch('/data/life-expectancy.json');
+    const response = await fetch('data/life-expectancy.json');
     lifeExpectancy = await response.json();
 }
-
 async function populateCountries() {
     const countrySelect = document.getElementById('country');
     Object.keys(lifeExpectancy).sort().forEach(country => {
