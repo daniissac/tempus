@@ -1,14 +1,15 @@
 {
     "name": "Tempus - Life Counter",
     "short_name": "Tempus",
-    "start_url": ".",
+    "start_url": "/tempus/",
+    "scope": "/tempus/",
     "display": "standalone",
     "background_color": "#1a1a1a",
     "theme_color": "#1a1a1a",
     "orientation": "portrait",
     "icons": [
         {
-            "src": "icons/icon.svg",
+            "src": "/tempus/icons/icon.svg",
             "sizes": "192x192 512x512",
             "type": "image/svg+xml",
             "purpose": "any maskable"

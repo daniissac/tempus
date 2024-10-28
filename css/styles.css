@@ -117,3 +117,15 @@ button:active {
     -webkit-text-fill-color: transparent;
     padding: 20px;
 }
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.input-group label {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-left: 4px;
+}
